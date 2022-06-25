@@ -1,64 +1,47 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+Final Project Tahap 1
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Axel Gavan (1202190004)
 
-## About Laravel
+Install Laravel 8 
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- Sebelum install Laravel pastikan sudah menginstall XAMPP & Composer sebagai aplikasi pendukung
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Masuk ke Command Prompt
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+![1](https://user-images.githubusercontent.com/94977405/172385477-437188d3-c65e-44bf-b563-9c86c9845251.png)
 
-## Learning Laravel
+- Masuk ke folder XAMPP
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+  ```
+  cd \xampp\htdocs
+  ```
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+  ![2](https://user-images.githubusercontent.com/94977405/172385599-4a4e4a0d-2d76-40b3-9a6c-c4a171ecbca4.png)
 
-## Laravel Sponsors
+- Install Laravel dengan perintah berikut ("integratif" sebagai nama file)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+  ```
+  composer create-project --prefer-dist laravel/laravel integratif
+  ```
 
-### Premium Partners
+  ![3](https://user-images.githubusercontent.com/94977405/172385668-bf607dcf-956c-485e-81a0-1a76b8ea9f49.png)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+- Cek instalasi Laravel di file explorer dengan nama "integratif"
 
-## Contributing
+  ![4](https://user-images.githubusercontent.com/94977405/172385711-23ee6e09-9e89-47be-8de0-b6d229714006.png)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- Kemudian cek instalasi Laravel dengan perintah
 
-## Code of Conduct
+  ```
+  php artisan serve
+  ```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+  ![5](https://user-images.githubusercontent.com/94977405/172385945-ef381a01-24d5-4e21-8c4e-b0fe3d214958.png)
 
-## Security Vulnerabilities
+- Kemudian cek di web dengan memasukkan
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+  ```
+  http://127.0.0:8000
+  ```
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+  ![6](https://user-images.githubusercontent.com/94977405/172385977-4a8bf2c5-34bb-4686-b83d-e68a25b12bda.png)
